@@ -16,16 +16,20 @@
       <image class="post-author" src="/images/avatar.png"></image>
       <text class="post-date">2025 3 12</text>
     </view>
-    <text class="post-title">食品指南针</text>
+    <text class="post-title">{{text}}</text>
 
-    <image class="post-image" src="/images/img1.png"></image>
+    <image class="post-image" src="{{img1}}"></image>
 
     <text class="post-content">优惠券 叠加 20% 补贴</text>
     <view class="post-like">
-      <image class="post-like-image" src="/images/img2.png"></image>
+      <l-icon class="post-like-image" size="32" color="#666" name="favor"></l-icon>
+      <!-- <image class="post-like-image" src="/images/img2.png"></image> -->
       <text class="post-like-font">92</text>
-      <image class="post-like-image" src="/images/img3.png"></image>
+      <l-icon class="post-like-image" size="32" color="#666" name="eye"></l-icon>
+      <!-- <image class="post-like-image" src="/images/img3.png"></image> -->
       <text class="post-like-font">102</text>
     </view>
+
+    <l-icon name="research"></l-icon>
   </view>
 </view>

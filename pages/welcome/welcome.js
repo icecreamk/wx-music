@@ -12,10 +12,10 @@ Page({
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
   },
-  bindViewTap() {
-    // wx.navigateTo({
-    //   url: '../logs/logs'
-    // })
+  jumpToPosts() {
+    wx.navigateTo({
+      url: '../posts/posts'
+    })
   },
   onChooseAvatar(e) {
     const { avatarUrl } = e.detail

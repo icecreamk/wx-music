@@ -4,6 +4,6 @@
   <l-avatar l-text-class="l-avatar-text" class="l-avatar" placement="bottom" open-data="{{['userAvatarUrl','userNickName']}}" size="180"></l-avatar>
   <text class="motto">hello, rabbit!</text>
   <view class="journey-container">
-    <text class="journey">开启小程序之旅</text>
+    <text class="journey" bindtap="jumpToPosts">开启小程序之旅</text>
   </view>
 </view>

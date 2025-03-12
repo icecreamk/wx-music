@@ -1,16 +1,17 @@
 // index.js
-const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia07jQodd2FJGIYQfG0LAJGFxM4FbnQP6yfMxBgJ0F3YRqJCJ1aPAK2dQagdusBZg/0'
 
 Page({
   data: {
-    motto: 'Hello World',
+    text: '食谱营养',
+    img1: '/images/img1.png',
     userInfo: {
-      avatarUrl: defaultAvatarUrl,
       nickName: '',
     },
     hasUserInfo: false,
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
+  },
+  onLoad() {
   },
   bindViewTap() {
     // wx.navigateTo({
