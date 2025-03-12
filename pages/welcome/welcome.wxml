@@ -1,0 +1,4 @@
+<!--welcome.wxml-->
+<image style="width: 200rpx;height: 200rpx;border-radius: 50%;" src="/images/WX20250312-123131@2x.png"></image>
+<text>kk</text>
+<button>submit</button>
