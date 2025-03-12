@@ -1,7 +1,31 @@
 <view>
-<swiper>
-<swiper-item>1</swiper-item>
-<swiper-item>2</swiper-item>
-<swiper-item>3</swiper-item>
-</swiper>
+  <swiper indicator-dots autoplay interval="3000" vertical circular>
+    <swiper-item>
+      <image src="/images/ban1.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/ban2.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/ban3.png"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/avatar.png"></image>
+      <text class="post-date">2025 3 12</text>
+    </view>
+    <text class="post-title">食品指南针</text>
+
+    <image class="post-image" src="/images/img1.png"></image>
+
+    <text class="post-content">优惠券 叠加 20% 补贴</text>
+    <view class="post-like">
+      <image class="post-like-image" src="/images/img2.png"></image>
+      <text class="post-like-font">92</text>
+      <image class="post-like-image" src="/images/img3.png"></image>
+      <text class="post-like-font">102</text>
+    </view>
+  </view>
 </view>
