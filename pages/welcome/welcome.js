@@ -13,9 +13,9 @@ Page({
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
   },
   bindViewTap() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+    // wx.navigateTo({
+    //   url: '../logs/logs'
+    // })
   },
   onChooseAvatar(e) {
     const { avatarUrl } = e.detail

@@ -1,0 +1,7 @@
+<view>
+<swiper>
+<swiper-item>1</swiper-item>
+<swiper-item>2</swiper-item>
+<swiper-item>3</swiper-item>
+</swiper>
+</view>

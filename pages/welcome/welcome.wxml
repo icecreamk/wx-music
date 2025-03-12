@@ -1,4 +1,9 @@
 <!--welcome.wxml-->
-<image style="width: 200rpx;height: 200rpx;border-radius: 50%;" src="/images/WX20250312-123131@2x.png"></image>
-<text>kk</text>
-<button>submit</button>
+<view class="container">
+  <!-- <image class="avatar" src="/images/avatar.png"></image> -->
+  <l-avatar l-text-class="l-avatar-text" class="l-avatar" placement="bottom" open-data="{{['userAvatarUrl','userNickName']}}" size="180"></l-avatar>
+  <text class="motto">hello, rabbit!</text>
+  <view class="journey-container">
+    <text class="journey">开启小程序之旅</text>
+  </view>
+</view>
