@@ -1,9 +1,12 @@
-// index.js
+import {
+  postsList
+} from '../../data/data'
+
 
 Page({
   data: {
     text: '食谱营养',
-    img1: '/images/img1.png',
+    postsList,
     userInfo: {
       nickName: '',
     },
@@ -11,16 +14,18 @@ Page({
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
   },
-  onLoad() {
-  },
-  bindViewTap() {
-    // wx.navigateTo({
-    //   url: '../logs/logs'
-    // })
+  onLoad() {},
+  jumpDetail(a, b) {
+    // console.log(a, b)
+    // TODO
   },
   onChooseAvatar(e) {
-    const { avatarUrl } = e.detail
-    const { nickName } = this.data.userInfo
+    const {
+      avatarUrl
+    } = e.detail
+    const {
+      nickName
+    } = this.data.userInfo
     this.setData({
       "userInfo.avatarUrl": avatarUrl,
       hasUserInfo: nickName && avatarUrl && avatarUrl !== defaultAvatarUrl,
@@ -28,7 +33,9 @@ Page({
   },
   onInputChange(e) {
     const nickName = e.detail.value
-    const { avatarUrl } = this.data.userInfo
+    const {
+      avatarUrl
+    } = this.data.userInfo
     this.setData({
       "userInfo.nickName": nickName,
       hasUserInfo: nickName && avatarUrl && avatarUrl !== defaultAvatarUrl,
