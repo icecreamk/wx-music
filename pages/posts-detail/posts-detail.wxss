@@ -1,0 +1,8 @@
+.detail {
+  text-align: center;
+}
+
+.detail-icon {
+  padding-top: 380rpx;
+  display: block;
+}

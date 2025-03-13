@@ -15,9 +15,10 @@ Page({
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
   },
   onLoad() {},
-  jumpDetail(a, b) {
-    // console.log(a, b)
-    // TODO
+  jumpDetail(e) {
+    wx.navigateTo({
+      url: `/pages/posts-detail/posts-detail?pid=${e.currentTarget.dataset.detailId}`,
+    })
   },
   onChooseAvatar(e) {
     const {
